@@ -1,0 +1,28 @@
+.navigation {
+  padding: 4rem;
+  color: #999;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+
+  position: fixed;
+  top: 0;
+  right: 0;
+}
+
+.navigation__container {
+  list-style: none;
+  text-decoration: none;
+  display: flex;
+  justify-content: end;
+  gap: 2rem;
+  font-size: 1rem;
+}
+.links:link,
+.links:visited {
+  text-decoration: none;
+  color: #999;
+}
+.links:hover,
+.links:active {
+  color: #fff;
+}

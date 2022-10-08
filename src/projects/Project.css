@@ -1,0 +1,58 @@
+.project__hero {
+  background-image: url("../images/Learn-Arabic.PNG");
+  background-position: center;
+  background-size: cover;
+  height: 50vh;
+}
+.project__container {
+  display: grid;
+  grid-template-rows: 100px 2fr;
+  grid-template-columns: 200px 2fr;
+}
+
+.project__heading {
+  text-align: center;
+  margin-top: 3rem;
+  margin-bottom: 5rem;
+  line-height: 1.5;
+
+  display: block;
+  font-weight: 400;
+  letter-spacing: 9px;
+  font-size: 5rem;
+}
+
+.h-sub {
+  display: block;
+  font-size: 3rem;
+  font-weight: 300;
+  letter-spacing: 5px;
+}
+.link-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5rem;
+  font-size: 2rem;
+}
+
+.view-links:link,
+.view-links:visited {
+  text-decoration: none;
+  display: block;
+  /* border: solid#444 2px; */
+  padding: 1rem 2rem;
+  border-radius: 1rem;
+  background-color: rgb(73, 0, 73);
+  color: #fff;
+}
+.view-links:hover,
+.view-links:active {
+  text-decoration: none;
+  display: block;
+  /* border: solid#444 2px; */
+  padding: 1rem 2rem;
+  border-radius: 1rem;
+
+  filter: brightness(150%);
+}
