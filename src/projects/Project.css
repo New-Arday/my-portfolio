@@ -6,53 +6,110 @@
 }
 .project__container {
   display: grid;
-  grid-template-rows: 100px 2fr;
-  grid-template-columns: 200px 2fr;
+  grid-template-columns: 200px 2fr 200px;
+  padding: 3rem;
+  justify-content: center;
 }
 
-.project__heading {
-  text-align: center;
-  margin-top: 3rem;
-  margin-bottom: 5rem;
-  line-height: 1.5;
-
-  display: block;
-  font-weight: 400;
-  letter-spacing: 9px;
-  font-size: 5rem;
+.teck-stack {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
+.teck-title {
+  font-size: 3rem;
+}
+.stack-list {
+  border: solid black 0.5px;
+  list-style: none;
+  border-radius: 1rem;
+  padding: 1rem;
+  font-size: 2rem;
+  margin: 1rem;
+}
 .h-sub {
   display: block;
   font-size: 3rem;
   font-weight: 300;
   letter-spacing: 5px;
 }
-.link-box {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 5rem;
+.project-title {
+  font-size: 3rem;
+  margin-top: 2rem;
+}
+.project-about {
+  padding: 0 3rem;
   font-size: 2rem;
 }
 
+.project__description,
+.project-title,
+.teck-title,
+.link-box {
+  margin-bottom: 3rem;
+  margin-top: 3rem;
+}
+
+.link-box {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 3rem;
+  font-size: 2rem;
+}
+.view-links {
+  margin-bottom: 2rem;
+}
 .view-links:link,
 .view-links:visited {
   text-decoration: none;
   display: block;
-  /* border: solid#444 2px; */
+  border: solid#444 0.5px;
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.1);
   padding: 1rem 2rem;
   border-radius: 1rem;
-  background-color: rgb(73, 0, 73);
-  color: #fff;
+  color: #444;
 }
 .view-links:hover,
 .view-links:active {
   text-decoration: none;
   display: block;
-  /* border: solid#444 2px; */
+  border: solid#444 2px;
   padding: 1rem 2rem;
   border-radius: 1rem;
+}
 
-  filter: brightness(150%);
+@media (max-width: 850px) {
+  .project__container {
+    display: grid;
+    grid-template-columns: 100px 2fr 100px;
+    padding: 3rem;
+    justify-content: center;
+  }
+  .teck-title {
+    font-size: 2.5rem;
+  }
+}
+@media (max-width: 500px) {
+  .project__container {
+    display: flex;
+    flex-direction: column;
+  }
+  .stack-list {
+    border: solid black 0.5px;
+    list-style: none;
+    border-radius: 1rem;
+    padding: 1rem;
+    font-size: 2rem;
+    margin: 1rem;
+    display: inline-block;
+  }
+  .link-box {
+    display: flex;
+    align-items: center;
+    display: inline-block;
+    font-size: 2rem;
+    margin: 2rem;
+  }
 }
