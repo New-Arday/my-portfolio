@@ -17,6 +17,7 @@
   align-items: center;
 }
 
+.teck-title,
 .teck-title {
   font-size: 3rem;
 }
@@ -26,7 +27,7 @@
   border-radius: 1rem;
   padding: 1rem;
   font-size: 2rem;
-  margin: 1rem;
+  margin-bottom: 1rem;
 }
 .h-sub {
   display: block;
@@ -36,7 +37,6 @@
 }
 .project-title {
   font-size: 3rem;
-  margin-top: 2rem;
 }
 .project-about {
   padding: 0 3rem;
@@ -45,28 +45,33 @@
 
 .project__description,
 .project-title,
-.teck-title,
-.link-box {
+.teck-title {
   margin-bottom: 3rem;
   margin-top: 3rem;
+}
+.project-img {
+  border: solid 0.5px;
+  margin-top: 3rem;
+  max-width: 100%;
 }
 
 .link-box {
   display: flex;
   align-items: center;
   flex-direction: column;
-  gap: 3rem;
+  gap: 1rem;
   font-size: 2rem;
 }
 .view-links {
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
+  background-color: #e9ecef;
 }
 .view-links:link,
 .view-links:visited {
   text-decoration: none;
   display: block;
   border: solid#444 0.5px;
-  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.1);
+
   padding: 1rem 2rem;
   border-radius: 1rem;
   color: #444;
@@ -75,9 +80,9 @@
 .view-links:active {
   text-decoration: none;
   display: block;
-  border: solid#444 2px;
   padding: 1rem 2rem;
   border-radius: 1rem;
+  filter: contrast(90%);
 }
 
 @media (max-width: 850px) {

@@ -1,6 +1,8 @@
 import React from "react";
 import "../projects/Project.css";
 import { Link } from "react-router-dom";
+import Lesson from "../images/lessonPage.PNG";
+
 function Project_LearnArabic() {
   return (
     <>
@@ -9,6 +11,7 @@ function Project_LearnArabic() {
       </div>
       <div className="project__container">
         <div className="link-box">
+          <h4 className="project-title">Links</h4>
           <a
             href="https://github.com/New-Arday/learn-arabic-client"
             className="view-links"
@@ -26,11 +29,11 @@ function Project_LearnArabic() {
         <div className="project-about">
           <h4 className="project-title">Gateway to Arabic</h4>
           <p className="project__description">
-            PostgreSQLPrismaReact About The project is based on the book:
-            'Gateway to Arabic level 2'; the content is from the book but it
-            does not cover all the learning concepts such as the grammer.
+            The project is based on the book: 'Gateway to Arabic level 2'; the
+            content is from the book but it does not cover all the learning
+            concepts such as the grammer.
             <p className="project__description">
-              The user is expected to have finished level 1 on be able to
+              The user is expected to have finished level 1 and be able to
               recognise and read basic Arabic.
             </p>
             <p className="project__description">
@@ -41,6 +44,7 @@ function Project_LearnArabic() {
               topic.
             </p>
           </p>
+          <img className="project-img " src={Lesson} />
         </div>
         <div className="teck-stack">
           <h4 className="teck-title">Teck Stack</h4>
@@ -53,21 +57,6 @@ function Project_LearnArabic() {
             <li className="stack-list">PostgreSQL</li>
           </ul>
         </div>
-        {/* <div className="link-box">
-          <a
-            href="https://github.com/New-Arday/learn-arabic-client"
-            className="view-links"
-          >
-            {" "}
-            View Code
-          </a>
-          <a
-            href="https://main--gatewaytoarabicproject.netlify.app/"
-            className="view-links"
-          >
-            View Project
-          </a>
-        </div> */}
       </div>
     </>
   );
