@@ -50,9 +50,11 @@
   margin-top: 3rem;
 }
 .project-img {
-  border: solid 0.5px;
+  border: solid 0.5px grey;
   margin-top: 3rem;
+  padding: 0.5rem;
   max-width: 100%;
+  border-radius: 0.5rem;
 }
 
 .link-box {
