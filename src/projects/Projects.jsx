@@ -7,7 +7,7 @@ import { Link } from "react-router-dom";
 const Projects = () => {
   return (
     <div className="project">
-      <h2> Projects</h2>
+      <h2 className="projects-page-heading"> Projects</h2>
       <section className="projects__container">
         <article className="project__card">
           <h2 className="project__heading">Full Stack App</h2>
@@ -17,7 +17,6 @@ const Projects = () => {
             className="project__link"
             href="https://main--gatewaytoarabicproject.netlify.app/"
           >
-            {/* "https://main--gatewaytoarabicproject.netlify.app/" */}
             Learn Arabic
           </Link>
         </article>
