@@ -11,16 +11,16 @@ const Projects = () => {
       <section className="projects__container">
         <article className="project__card">
           <h2 className="project__heading">Full Stack App</h2>
-          <img className="project__img" src={LearnArabic} />
           <Link
             to="/learnArabic"
             className="project__link"
             href="https://main--gatewaytoarabicproject.netlify.app/"
           >
+            <img className="project__img" src={LearnArabic} />
             Learn Arabic
           </Link>
         </article>
-        <article className="project__card">
+        {/* <article className="project__card">
           <h2 className="project__heading">React App</h2>
           <img className="project__img" src={ExpenseTracker} />
           <Link
@@ -29,8 +29,8 @@ const Projects = () => {
           >
             Expense Tracker
           </Link>
-        </article>
-        <article className="project__card">
+        </article> */}
+        {/* <article className="project__card">
           <h2 className="project__heading">REST API</h2>
           <img className="project__img" src={TodoList} />
           <Link
@@ -39,7 +39,7 @@ const Projects = () => {
           >
             Todo List
           </Link>
-        </article>
+        </article> */}
       </section>
     </div>
   );

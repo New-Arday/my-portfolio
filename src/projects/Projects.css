@@ -1,7 +1,6 @@
 .project {
   padding: 5rem;
-  height: 100vh;
-  background-color: rgba(250, 17, 157, 0.063);
+  /* height: 100vh; */
 }
 .projects__container {
   display: grid;
@@ -19,7 +18,6 @@
   padding: 1rem;
   border-top: solid rgba(250, 17, 157, 0.487) 3rem;
   border-bottom: solid rgba(250, 17, 157, 0.487) 0.5rem;
-  clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
 }
 .project__img {
   max-width: 100%;
@@ -35,7 +33,6 @@
 .project__link:visited {
   text-decoration: none;
   font-size: 2rem;
-  margin-right: 11rem;
 }
 .project__heading {
   font-size: 2rem;
@@ -47,12 +44,6 @@
     flex-direction: column;
   }
 
-  .project__card {
-    max-width: 100%;
-    display: flex;
-    flex-direction: column;
-    clip-path: none;
-  }
   .project__link:link,
   .project__link:visited {
     margin-right: 0;
