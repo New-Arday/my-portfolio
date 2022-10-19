@@ -10,15 +10,23 @@ const Projects = () => {
       <h2 className="projects-page-heading"> Projects</h2>
       <section className="projects__container">
         <article className="project__card">
-          <h2 className="project__heading">Full Stack App</h2>
           <Link
             to="/learnArabic"
             className="project__link"
             href="https://main--gatewaytoarabicproject.netlify.app/"
           >
+            {" "}
+            <h2 className="project__heading">Learn Arabic</h2>
             <img className="project__img" src={LearnArabic} />
-            Learn Arabic
           </Link>
+          <ul className="projects__stack-list">
+            <li className="style-list">JavaScript</li>
+            <li className="style-list">React</li>
+            <li className="style-list">NodeJs</li>
+            <li className="style-list">Express</li>
+            <li className="style-list">Prisma</li>
+            <li className="style-list">PostgreSQL</li>
+          </ul>
         </article>
         {/* <article className="project__card">
           <h2 className="project__heading">React App</h2>
