@@ -1,6 +1,7 @@
 .hero {
-  background-image: url("../images/hero-img.jpg");
+  /* background-image: url("../images/hero-img.jpg"); */
   background-position: center;
   background-size: cover;
   height: 100vh;
+  background-color: rgb(4, 4, 31);
 }

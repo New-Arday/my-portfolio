@@ -28,6 +28,10 @@
   padding: 1rem;
   font-size: 2rem;
   margin-bottom: 1rem;
+  color: #fff;
+}
+.js {
+  color: #000;
 }
 .h-sub {
   display: block;

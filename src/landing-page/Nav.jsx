@@ -18,7 +18,7 @@ const Nav = () => {
             </Link>
           </li>
           <li>
-            <a className="links" href="https://1drv.ms/b/s!ApBpbXRATqjSy1KA38_u2knkaqdC?e=67176v">
+            <a className="links" href="#">
               Resume
             </a>
           </li>

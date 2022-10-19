@@ -72,11 +72,27 @@
   }
 }
 @media (max-width: 494px) {
-  .main-heading {
-    font-size: 3rem;
+  html {
+    font-size: 40%;
   }
+  /* .heading {
+    max-width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-35%, -50%);
+    line-height: 1.5;
+    text-shadow: 0 0 3px #0aef15, 0 0 5px #000502;
+    color: #999;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+  } */
 
-  .heading-sub {
-    font-size: 2rem;
-  }
+  /* .main-heading {
+    font-size: 3.5rem;
+  } */
+
+  /* .heading-sub {
+    font-size: 1.7rem;
+  } */
 }

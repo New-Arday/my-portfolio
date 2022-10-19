@@ -1,10 +1,13 @@
 .project {
   padding: 5rem;
+  width: 60%;
+  margin: 0 auto;
 }
 .projects__container {
   display: grid;
   /* grid-template-columns: repeat(3, 2fr); */
   column-gap: 2rem;
+  padding: 3rem;
 }
 .project__card {
   max-width: 100%;
@@ -13,10 +16,11 @@
   justify-content: center;
   align-items: center;
   gap: 2rem;
-
+  max-width: 100%;
   padding: 1rem;
-  border-top: solid rgba(250, 17, 157, 0.487) 3rem;
-  border-bottom: solid rgba(250, 17, 157, 0.487) 0.5rem;
+  border-top: solid #090935 3rem;
+  border-bottom: solid #090935 0.5rem;
+  box-shadow: 2px 3px 10px 0px;
 }
 .project__img {
   max-width: 100%;
@@ -32,6 +36,7 @@
 .project__link:visited {
   text-decoration: none;
   font-size: 2rem;
+  color: rgb(79, 70, 70);
 }
 .project__heading {
   font-size: 2rem;
@@ -44,17 +49,44 @@
   display: flex;
   justify-content: space-evenly;
   gap: 1.5rem;
+  margin-bottom: 3rem;
 }
 .style-list {
-  border: solid grey 1px;
+  /* border: solid grey 1px; */
   list-style: none;
   border-radius: 1rem;
   padding: 1rem;
   font-size: 2rem;
+  color: #fff;
+}
+.stack-js {
+  background-color: rgb(235, 235, 22);
+  color: #000;
+}
+.stack-react {
+  background-color: purple;
+}
+.stack-node {
+  background-color: green;
+}
+.stack-express {
+  background-color: grey;
+  color: #000;
+}
+.stack-prisma {
+  background-color: rgb(85, 85, 170);
+}
+.stack-postgres {
+  background-color: rgb(227, 79, 25);
 }
 @media (max-width: 575px) {
   .projects__container {
     display: flex;
     flex-direction: column;
+  }
+  .projects__stack-list {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
   }
 }

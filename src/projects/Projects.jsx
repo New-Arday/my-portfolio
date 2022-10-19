@@ -20,12 +20,12 @@ const Projects = () => {
             <img className="project__img" src={LearnArabic} />
           </Link>
           <ul className="projects__stack-list">
-            <li className="style-list">JavaScript</li>
-            <li className="style-list">React</li>
-            <li className="style-list">NodeJs</li>
-            <li className="style-list">Express</li>
-            <li className="style-list">Prisma</li>
-            <li className="style-list">PostgreSQL</li>
+            <li className="style-list stack-js">JavaScript</li>
+            <li className="style-list stack-react">React</li>
+            <li className="style-list stack-node">NodeJs</li>
+            <li className="style-list stack-express">Express</li>
+            <li className="style-list stack-prisma">Prisma</li>
+            <li className="style-list stack-postgres">PostgreSQL</li>
           </ul>
         </article>
         {/* <article className="project__card">

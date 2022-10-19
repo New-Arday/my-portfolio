@@ -2,6 +2,7 @@ import React from "react";
 import "../projects/Project.css";
 import { Link } from "react-router-dom";
 import Lesson from "../images/lessonPage.PNG";
+import Lessons from "../images/lessons.PNG";
 
 function Project_LearnArabic() {
   return (
@@ -44,17 +45,17 @@ function Project_LearnArabic() {
               topic.
             </p>
           </p>
-          <img className="project-img " src={Lesson} />
+          <img className="project-img " src={Lessons} />
         </div>
         <div className="teck-stack">
           <h4 className="teck-title">Teck Stack</h4>
           <ul>
-            <li className="stack-list">JavaScript</li>
-            <li className="stack-list">React</li>
-            <li className="stack-list">NodeJs</li>
-            <li className="stack-list">Express</li>
-            <li className="stack-list">Prisma</li>
-            <li className="stack-list">PostgreSQL</li>
+            <li className="stack-list stack-js js">JavaScript</li>
+            <li className="stack-list stack-react">React</li>
+            <li className="stack-list stack-node">NodeJs</li>
+            <li className="stack-list stack-express">Express</li>
+            <li className="stack-list stack-prisma">Prisma</li>
+            <li className="stack-list stack-postgres">PostgreSQL</li>
           </ul>
         </div>
       </div>
