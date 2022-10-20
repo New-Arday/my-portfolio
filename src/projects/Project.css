@@ -22,13 +22,13 @@
   font-size: 3rem;
 }
 .stack-list {
-  border: solid black 0.5px;
   list-style: none;
   border-radius: 1rem;
   padding: 1rem;
   font-size: 2rem;
   margin-bottom: 1rem;
   color: #fff;
+  text-align: center;
 }
 .js {
   color: #000;
@@ -41,6 +41,7 @@
 }
 .project-title {
   font-size: 3rem;
+  text-align: center;
 }
 .project-about {
   padding: 0 3rem;

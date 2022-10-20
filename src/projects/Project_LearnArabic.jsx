@@ -1,7 +1,6 @@
 import React from "react";
 import "../projects/Project.css";
 import { Link } from "react-router-dom";
-import Lesson from "../images/lessonPage.PNG";
 import Lessons from "../images/lessons.PNG";
 
 function Project_LearnArabic() {

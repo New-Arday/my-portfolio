@@ -1,6 +1,6 @@
 .project {
   padding: 5rem;
-  width: 60%;
+  max-width: 100%;
   margin: 0 auto;
 }
 .projects__container {
@@ -10,13 +10,13 @@
   padding: 3rem;
 }
 .project__card {
+  background-color: #d0d0df;
   max-width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   gap: 2rem;
-  max-width: 100%;
   padding: 1rem;
   border-top: solid #090935 3rem;
   border-bottom: solid #090935 0.5rem;
@@ -29,8 +29,10 @@
 .projects-page-heading {
   font-size: 4rem;
   text-align: center;
-  margin-bottom: 7rem;
-  margin-top: 8rem;
+  margin-bottom: 3.5rem;
+  margin-top: 5rem;
+  letter-spacing: 1rem;
+  text-transform: uppercase;
 }
 .project__link:link,
 .project__link:visited {
@@ -43,21 +45,23 @@
   text-align: center;
   font-size: 4rem;
   padding: 2rem;
+  letter-spacing: 0.5rem;
 }
 
 .projects__stack-list {
   display: flex;
   justify-content: space-evenly;
+  flex-wrap: wrap;
   gap: 1.5rem;
   margin-bottom: 3rem;
 }
 .style-list {
-  /* border: solid grey 1px; */
   list-style: none;
   border-radius: 1rem;
   padding: 1rem;
   font-size: 2rem;
   color: #fff;
+  letter-spacing: 0.5rem;
 }
 .stack-js {
   background-color: rgb(235, 235, 22);
@@ -83,10 +87,5 @@
   .projects__container {
     display: flex;
     flex-direction: column;
-  }
-  .projects__stack-list {
-    display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
   }
 }

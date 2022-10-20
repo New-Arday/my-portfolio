@@ -1,12 +1,10 @@
 .navigation {
-  /* padding: 5rem; */
   color: #999;
   letter-spacing: 2px;
   text-transform: uppercase;
-  margin-top: 3rem;
-  margin-right: 3rem;
+  padding: 3rem;
 
-  position: fixed;
+  position: absolute;
   top: 0;
   right: 0;
 }
@@ -26,8 +24,25 @@
 }
 .links:hover,
 .links:active {
-  /* color: #fff; */
   border: solid grey 1px;
   padding: 1rem;
   border-radius: 1rem;
+}
+
+.name {
+  font-weight: 400;
+  letter-spacing: 5px;
+  font-size: 5rem;
+}
+
+.title {
+  font-size: 3rem;
+  font-weight: 300;
+  letter-spacing: 5px;
+}
+
+@media (max-width: 326px) {
+  .navigation__container {
+    gap: 1rem;
+  }
 }
