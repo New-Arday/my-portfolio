@@ -1,24 +1,34 @@
-.project__hero {
+.arabic__project-hero {
   width: 100%;
-  height: 70vh;
+  height: 80vh;
 }
-.project__container {
+.arabic__project-container {
   display: grid;
   grid-template-columns: 200px 2fr 200px;
   padding: 3rem;
   justify-content: center;
+  letter-spacing: 0.1rem;
 }
 
-.teck-stack {
+.arabic__teck-stack {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-.teck-title {
+.arabic__teck-title {
   font-size: 2.5rem;
+  color: #666;
 }
-.stack-list {
+.arabic__used-stack-box {
+  padding: 2rem;
+  border-radius: 0.7rem;
+}
+.arabic__stack-list-text {
+  color: #fff;
+  background-color: #495057;
+}
+.arabic__stack-list {
   list-style: none;
   border-radius: 1rem;
   padding: 1rem;
@@ -26,67 +36,77 @@
   margin-bottom: 1rem;
   color: #fff;
   text-align: center;
+  letter-spacing: 0.2rem;
 }
 .js {
   color: #000;
 }
 
-.project-title {
-  font-size: 3rem;
+.arabic__project-title {
+  font-size: 3.5rem;
   text-align: center;
+  color: #666;
+
+  /* font-size: 2.5rem; */
 }
-.project-about {
+.arabic__project-about {
   padding: 0 3rem;
   font-size: 2rem;
+  color: #666;
 }
 
-.project-title,
-.teck-title,
-.worked-with-title {
+.arabic__project-title,
+.arabic__teck-title,
+.arabic__worked-with-title {
   margin-bottom: 3rem;
   margin-top: 3rem;
   letter-spacing: 0.5rem;
 }
 
-.project__description {
+.arabic__project-description {
   margin-bottom: 1rem;
 }
-.title-of-book {
+.center-text {
+  text-align: center;
+}
+.arabic__title-of-book {
   font-style: italic;
 }
-.project-img-samples {
-  display: grid;
-  /* grid-template-columns: 200px 2fr 200px; */
-  grid-template-columns: repeat(3, 3fr);
-  /* padding: 3rem; */
-  justify-content: center;
-  column-gap: 2rem;
+.arabic__project-img-samples-box {
+  border: solid rgb(55, 54, 54) 1px;
+  padding: 2rem;
+  border-radius: 1rem;
+  margin-top: 3rem;
 }
-.project-img {
-  border: solid 0.5px grey;
+.arabic__project-img-samples {
+  display: grid;
+  grid-template-columns: repeat(3, 3fr);
+  justify-content: center;
+  column-gap: 1rem;
+}
+.arabic__project-img {
   margin-top: 3rem;
   padding: 0.5rem;
   max-width: 100%;
   border-radius: 0.5rem;
 }
-.stack-list-text {
-  color: rgb(92, 90, 90);
-  border: solid gray 1px;
-}
 
-.link-box {
+.arabic__link-box {
   display: flex;
   align-items: center;
   flex-direction: column;
   gap: 1rem;
-  font-size: 2rem;
+  font-size: 1.5rem;
+  color: #666;
 }
-.view-links {
+.arabic__view-links {
   margin-bottom: 1rem;
   background-color: #e9ecef;
+  letter-spacing: 0.2rem;
+  font-size: 1.7rem;
 }
-.view-links:link,
-.view-links:visited {
+.arabic__view-links:link,
+.arabic__view-links:visited {
   text-decoration: none;
   display: block;
   border: solid#444 0.5px;
@@ -95,8 +115,8 @@
   border-radius: 1rem;
   color: #444;
 }
-.view-links:hover,
-.view-links:active {
+.arabic__view-links:hover,
+.arabic__view-links:active {
   text-decoration: none;
   display: block;
   padding: 1rem 2rem;
@@ -104,7 +124,7 @@
   filter: contrast(90%);
 }
 
-.worked-with-box {
+.arabic__worked-with-box {
   display: grid;
   grid-template-columns: repeat(4, 4fr);
   gap: 2rem;
@@ -112,45 +132,51 @@
   padding: 2rem;
   border-radius: 0.7rem;
 }
-.used-list {
+
+.arabic__used-list {
   max-width: 100%;
   border-radius: 0.7rem;
 }
-.worked-with-title {
+.arabic__worked-with-title {
   text-align: center;
-  letter-spacing: 0.5rem;
+  letter-spacing: 0.4rem;
 }
 @media (max-width: 850px) {
-  .project__container {
-    display: grid;
-    grid-template-columns: 100px 2fr 100px;
-    padding: 3rem;
-    justify-content: center;
-  }
-  .teck-title {
+  .arabic__teck-title {
     font-size: 2.5rem;
+    color: #666;
   }
 }
 @media (max-width: 500px) {
-  .project__container {
+  .arabic__project-container {
     display: flex;
     flex-direction: column;
   }
-  .stack-list {
-    border: solid black 0.5px;
+  .arabic__stack-list {
     list-style: none;
     border-radius: 1rem;
-    padding: 1rem;
-    font-size: 2rem;
+    font-size: 1.7rem;
     margin: 1rem;
     display: inline-block;
   }
 
-  .link-box {
+  .arabic__link-box {
     display: flex;
     align-items: center;
     display: inline-block;
     font-size: 2rem;
     margin: 2rem;
   }
+  .arabic__ul-container {
+    background-color: #495057;
+    padding: 0.3rem;
+    border-radius: 0.7rem;
+  }
+  .arabic__stack-list-text {
+    color: #fff;
+    border: solid gray 1px;
+  }
+  /* .project__container {
+    padding: 1.5rem;
+  } */
 }

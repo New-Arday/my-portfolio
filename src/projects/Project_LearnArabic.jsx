@@ -1,5 +1,5 @@
 import React from "react";
-import "../projects/Project.css";
+import "../projects/Project_LearnArabic.css";
 import Lessons from "../images/lessons.PNG";
 import LearnArabic from "../images/Learn-Arabic.PNG";
 import ReactRouterDom from "../images/React-router-dom.PNG";
@@ -11,65 +11,69 @@ function Project_LearnArabic() {
   return (
     <>
       <div>
-        <img src={LearnArabic} className="project__hero" alt="" />
+        <img src={LearnArabic} className="arabic__project-hero" alt="" />
       </div>
-      <div className="project__container">
-        <div className="link-box">
-          <h4 className="project-title">Links</h4>
+      <div className="arabic__project-container">
+        <div className="arabic__link-box">
+          <h4 className="arabic__teck-title">Links</h4>
           <a
             href="https://github.com/New-Arday/learn-arabic-client"
             target="_blank"
-            className="view-links"
+            className="arabic__view-links"
           >
             View Code
           </a>
           <a
             href="https://main--gatewaytoarabicproject.netlify.app/"
             target="_blank"
-            className="view-links"
+            className="arabic__view-links"
           >
             Live Project
           </a>
         </div>
-        <div className="project-about">
-          <h4 className="project-title">Gateway to Arabic</h4>
-          <p className="project__description">
+        <div className="arabic__project-about">
+          <h4 className="arabic__project-title">Gateway to Arabic</h4>
+          <p className="arabic__project-description">
             The project is based on the book:
-            <span className="title-of-book">Gateway to Arabic</span> level 2.
-            The content is from the book.
+            <span className="arabic__title-of-book">Gateway to Arabic</span>
+            level 2. The content is from the book.
           </p>
-          <p className="project__description">
+          <p className="arabic__project-description">
             The user is expected to be able to recognise and read basic Arabic
             words.
           </p>
-          <p className="project__description">
+          <p className="arabic__project-description">
             The lessons are separated into topics: fruits and vegetables,
             animals and colours.
           </p>
-          <p className="project__description">
+          <p className="arabic__project-description">
             There's an interactive quiz where the user can test their knowledge
             of what they've learnt.
           </p>
+
+          {/* Worked with section */}
           <div>
-            <h3 className="worked-with-title">Worked with</h3>
-            <div className="worked-with-box">
-              <img className="used-list" src={ReactRouterDom} />
-              <img className="used-list" src={CssGrid} />
-              <img className="used-list" src={CssCarousal} />
-              <img className="used-list" src={MediaQuery} />
+            <h3 className="arabic__worked-with-title">Worked with</h3>
+            <div className="arabic__worked-with-box">
+              <img className="arabic__used-list" src={ReactRouterDom} />
+              <img className="arabic__used-list" src={CssGrid} />
+              <img className="arabic__used-list" src={CssCarousal} />
+              <img className="arabic__used-list" src={MediaQuery} />
             </div>
           </div>
-          <img className="project-img " src={Lessons} alt="" />
+          <img className="arabic__project-img " src={Lessons} alt="" />
         </div>
-        <div className="teck-stack">
-          <h4 className="teck-title">Used Stack</h4>
-          <ul>
-            <li className="stack-list stack-js js">JavaScript</li>
-            <li className="stack-list stack-react">React</li>
-            <li className="stack-list stack-node">NodeJs</li>
-            <li className="stack-list stack-express">Express</li>
-            <li className="stack-list stack-prisma">Prisma</li>
-            <li className="stack-list stack-postgres">PostgreSQL</li>
+
+        {/* Tech used section */}
+        <div className="arabic__teck-stack">
+          <h4 className="arabic__teck-title">Used Stack</h4>
+          <ul className="arabic__ul-container">
+            <li className="arabic__stack-list stack-js js">JavaScript</li>
+            <li className="arabic__stack-list stack-react">React</li>
+            <li className="arabic__stack-list stack-node">NodeJs</li>
+            <li className="arabic__stack-list stack-express">Express</li>
+            <li className="arabic__stack-list stack-prisma">Prisma</li>
+            <li className="arabic__stack-list stack-postgres">PostgreSQL</li>
           </ul>
         </div>
       </div>

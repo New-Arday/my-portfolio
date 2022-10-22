@@ -4,7 +4,7 @@ import "../landing-page/Nav.css";
 
 const Nav = () => {
   return (
-    <div>
+    <>
       <nav className="navigation">
         <ul className="navigation__container">
           <li>
@@ -42,7 +42,7 @@ const Nav = () => {
           </li>
         </ul>
       </nav>
-    </div>
+    </>
   );
 };
 
