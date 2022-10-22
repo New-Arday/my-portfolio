@@ -1,7 +1,8 @@
 import React from "react";
 import LearnArabic from "../images/Capture2.PNG";
-import ExpenseTracker from "../images/expense-tracker.jpg";
-import TodoList from "../images/todo-list.jpg";
+import portfolio from "../images/portfolio-img.PNG";
+// import ExpenseTracker from "../images/expense-tracker.jpg";
+// import TodoList from "../images/todo-list.jpg";
 import "../projects/Projects.css";
 import { Link } from "react-router-dom";
 const Projects = () => {
@@ -15,9 +16,8 @@ const Projects = () => {
             className="project__link"
             href="https://main--gatewaytoarabicproject.netlify.app/"
           >
-            {" "}
-            <h2 className="project__heading">Learn Arabic</h2>
-            <img className="project__img" src={LearnArabic} />
+            <h2 className="project__heading">Gateway to Arabic</h2>
+            <img className="project__img" src={LearnArabic} alt="" />
           </Link>
           <ul className="projects__stack-list">
             <li className="style-list stack-js">JavaScript</li>
@@ -28,6 +28,24 @@ const Projects = () => {
             <li className="style-list stack-postgres">PostgreSQL</li>
           </ul>
         </article>
+        <article className="project__card">
+          <Link
+            to="/portfolio"
+            className="project__link"
+            href="https://safia-ibrahim.netlify.app/"
+          >
+            <h2 className="project__heading">Portfolio</h2>
+            <img className="project__img" src={portfolio} alt="" />
+          </Link>
+          <ul className="projects__stack-list">
+            <li className="style-list stack-react">React</li>
+            <li className="style-list ">React Router Dom</li>
+            <li className="style-list ">Grid</li>
+            <li className="style-list ">Flexbox</li>
+            <li className="style-list ">Media Query</li>
+          </ul>
+        </article>
+
         {/* <article className="project__card">
           <h2 className="project__heading">React App</h2>
           <img className="project__img" src={ExpenseTracker} />

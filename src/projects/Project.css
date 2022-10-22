@@ -1,8 +1,6 @@
 .project__hero {
-  background-image: url("../images/Learn-Arabic.PNG");
-  background-position: center;
-  background-size: cover;
-  height: 50vh;
+  width: 100%;
+  height: 70vh;
 }
 .project__container {
   display: grid;
@@ -17,9 +15,8 @@
   align-items: center;
 }
 
-.teck-title,
 .teck-title {
-  font-size: 3rem;
+  font-size: 2.5rem;
 }
 .stack-list {
   list-style: none;
@@ -33,12 +30,7 @@
 .js {
   color: #000;
 }
-.h-sub {
-  display: block;
-  font-size: 3rem;
-  font-weight: 300;
-  letter-spacing: 5px;
-}
+
 .project-title {
   font-size: 3rem;
   text-align: center;
@@ -48,11 +40,27 @@
   font-size: 2rem;
 }
 
-.project__description,
 .project-title,
-.teck-title {
+.teck-title,
+.worked-with-title {
   margin-bottom: 3rem;
   margin-top: 3rem;
+  letter-spacing: 0.5rem;
+}
+
+.project__description {
+  margin-bottom: 1rem;
+}
+.title-of-book {
+  font-style: italic;
+}
+.project-img-samples {
+  display: grid;
+  /* grid-template-columns: 200px 2fr 200px; */
+  grid-template-columns: repeat(3, 3fr);
+  /* padding: 3rem; */
+  justify-content: center;
+  column-gap: 2rem;
 }
 .project-img {
   border: solid 0.5px grey;
@@ -60,6 +68,10 @@
   padding: 0.5rem;
   max-width: 100%;
   border-radius: 0.5rem;
+}
+.stack-list-text {
+  color: rgb(92, 90, 90);
+  border: solid gray 1px;
 }
 
 .link-box {
@@ -92,6 +104,22 @@
   filter: contrast(90%);
 }
 
+.worked-with-box {
+  display: grid;
+  grid-template-columns: repeat(4, 4fr);
+  gap: 2rem;
+  background-color: #495057;
+  padding: 2rem;
+  border-radius: 0.7rem;
+}
+.used-list {
+  max-width: 100%;
+  border-radius: 0.7rem;
+}
+.worked-with-title {
+  text-align: center;
+  letter-spacing: 0.5rem;
+}
 @media (max-width: 850px) {
   .project__container {
     display: grid;
@@ -117,6 +145,7 @@
     margin: 1rem;
     display: inline-block;
   }
+
   .link-box {
     display: flex;
     align-items: center;

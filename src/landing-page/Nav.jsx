@@ -23,7 +23,11 @@ const Nav = () => {
             </a>
           </li>
           <li>
-            <a className="links" href="https://github.com/New-Arday">
+            <a
+              className="links"
+              href="https://github.com/New-Arday"
+              target="_blank"
+            >
               GitHub
             </a>
           </li>
@@ -31,6 +35,7 @@ const Nav = () => {
             <a
               className="links"
               href="https://www.linkedin.com/in/safiaibrahim/"
+              target="_blank"
             >
               LinkedIn
             </a>

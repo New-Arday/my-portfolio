@@ -5,6 +5,7 @@ import { Route, Routes } from "react-router-dom";
 import Projects from "./projects/Projects";
 import Nav from "./landing-page/Nav";
 import Project_LearnArabic from "./projects/Project_LearnArabic";
+import Project_Portfolio from "./projects/Project_Portfolio";
 function App() {
   return (
     <div className="App">
@@ -18,6 +19,9 @@ function App() {
       </Routes>
       <Routes>
         <Route path="/learnArabic" element={<Project_LearnArabic />}></Route>
+      </Routes>
+      <Routes>
+        <Route path="/portfolio" element={<Project_Portfolio />}></Route>
       </Routes>
     </div>
   );
