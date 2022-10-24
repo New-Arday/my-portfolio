@@ -9,33 +9,16 @@ import MediaQuery from "../images/Media-query.PNG";
 
 function Project_LearnArabic() {
   return (
-    <>
+    <div className="arabic__project-bg-clr">
       <div>
         <img src={LearnArabic} className="arabic__project-hero" alt="" />
       </div>
       <div className="arabic__project-container">
-        <div className="arabic__link-box">
-          <h4 className="arabic__teck-title">Links</h4>
-          <a
-            href="https://github.com/New-Arday/learn-arabic-client"
-            target="_blank"
-            className="arabic__view-links"
-          >
-            View Code
-          </a>
-          <a
-            href="https://main--gatewaytoarabicproject.netlify.app/"
-            target="_blank"
-            className="arabic__view-links"
-          >
-            Live Project
-          </a>
-        </div>
         <div className="arabic__project-about">
           <h4 className="arabic__project-title">Gateway to Arabic</h4>
           <p className="arabic__project-description">
             The project is based on the book:
-            <span className="arabic__title-of-book">Gateway to Arabic</span>
+            <span className="arabic__title-of-book">Gateway to Arabic </span>
             level 2. The content is from the book.
           </p>
           <p className="arabic__project-description">
@@ -65,19 +48,40 @@ function Project_LearnArabic() {
         </div>
 
         {/* Tech used section */}
-        <div className="arabic__teck-stack">
-          <h4 className="arabic__teck-title">Used Stack</h4>
-          <ul className="arabic__ul-container">
-            <li className="arabic__stack-list stack-js js">JavaScript</li>
-            <li className="arabic__stack-list stack-react">React</li>
-            <li className="arabic__stack-list stack-node">NodeJs</li>
-            <li className="arabic__stack-list stack-express">Express</li>
-            <li className="arabic__stack-list stack-prisma">Prisma</li>
-            <li className="arabic__stack-list stack-postgres">PostgreSQL</li>
-          </ul>
+        <div className="link-and-stack-box">
+          <div className="arabic__teck-stack">
+            <div className="arabic__link-box">
+              <h4 className="arabic__teck-title">Links</h4>
+              <div className="link-style-phone">
+                <a
+                  href="https://github.com/New-Arday/learn-arabic-client"
+                  target="_blank"
+                  className="arabic__view-links"
+                >
+                  View Code
+                </a>
+                <a
+                  href="https://main--gatewaytoarabicproject.netlify.app/"
+                  target="_blank"
+                  className="arabic__view-links"
+                >
+                  Live Project
+                </a>
+              </div>
+            </div>
+            <h4 className="arabic__teck-title">Used Stack</h4>
+            <ul className="arabic__ul-container">
+              <li className="arabic__stack-list stack-js js">JavaScript</li>
+              <li className="arabic__stack-list stack-react">React</li>
+              <li className="arabic__stack-list stack-node">NodeJs</li>
+              <li className="arabic__stack-list stack-express">Express</li>
+              <li className="arabic__stack-list stack-prisma">Prisma</li>
+              <li className="arabic__stack-list stack-postgres">PostgreSQL</li>
+            </ul>
+          </div>
         </div>
       </div>
-    </>
+    </div>
   );
 }
 
