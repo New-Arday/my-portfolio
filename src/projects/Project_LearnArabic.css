@@ -116,6 +116,7 @@
   padding: 0.5rem;
   max-width: 100%;
   border-radius: 0.5rem;
+  border: solid #444 0.5px;
 }
 
 .arabic__link-box {

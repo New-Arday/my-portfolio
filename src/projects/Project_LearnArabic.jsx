@@ -18,7 +18,7 @@ function Project_LearnArabic() {
           <h4 className="arabic__project-title">Gateway to Arabic</h4>
           <p className="arabic__project-description">
             The project is based on the book:
-            <span className="arabic__title-of-book">Gateway to Arabic </span>
+            <span className="arabic__title-of-book"> Gateway to Arabic </span>
             level 2. The content is from the book.
           </p>
           <p className="arabic__project-description">
