@@ -1,0 +1,12 @@
+.footer-container {
+  background-color: rgb(22, 22, 22);
+  height: 5vh;
+  margin-top: 3rem;
+}
+.link-icons {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  font-size: 2rem;
+  gap: 1.5rem;
+}

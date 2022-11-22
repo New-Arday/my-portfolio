@@ -1,11 +1,11 @@
 import React from "react";
-import "../projects/Project_Portfolio.css";
-import PortfolioHero from "../images/portfolio-hero.PNG";
-import PortfolioTablet from "../images/responsive--tablet.PNG";
-import PortfolioPc from "../images/projects-page.PNG";
-import ReactRouterDom from "../images/React-router-dom.PNG";
-import CssGrid from "../images/CSS-Grid.PNG";
-import MediaQuery from "../images/Media-query.PNG";
+import "./Project_Portfolio.css";
+import PortfolioHero from "../../images/facebook_cover_photo_2.png";
+import PortfolioTablet from "../../images/responsive--tablet.PNG";
+import PortfolioPc from "../../images/my-portfolio.png";
+import ReactRouterDom from "../../images/React-router-dom.PNG";
+import CssGrid from "../../images/CSS-Grid.PNG";
+import MediaQuery from "../../images/Media-query.PNG";
 
 function Project_Portfolio() {
   return (

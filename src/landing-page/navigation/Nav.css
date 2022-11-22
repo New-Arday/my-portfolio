@@ -1,0 +1,155 @@
+.navigation {
+  width: 100%;
+  background-color: #11232c;
+  /* border-bottom: solid #bca210 1px; */
+
+  position: fixed;
+  top: 0;
+  right: 0;
+
+  z-index: 100;
+  opacity: 1;
+}
+
+.navigation__container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.name {
+  font-weight: 400;
+  letter-spacing: 5px;
+  font-size: 4rem;
+  color: #bca210;
+}
+.ul__link-list {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.logo {
+  /* background-color: #11232c; */
+  margin-left: 4rem;
+  width: 100px;
+}
+.logo:hover,
+.logo:active {
+  filter: brightness(5);
+  border: #bca210 solid 1px;
+}
+
+.links:link,
+.links:visited {
+  text-decoration: none;
+  color: #bca210;
+  font-size: 1.5rem;
+}
+.links:hover,
+.links:active {
+  border-bottom: solid #bca210 1px;
+  padding: 0.5rem;
+}
+.a-links {
+  text-decoration: none;
+  color: #bca210;
+}
+
+@media (min-width: 1800px) {
+  html {
+    font-size: 70%;
+  }
+}
+
+@media (max-width: 1200px) {
+  html {
+    font-size: 60%;
+  }
+
+  .navigation__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .logo {
+    margin-left: 0;
+  }
+  .center-logo {
+    text-align: center;
+  }
+  .ul__link-list {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    font-size: 1.1rem;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    padding: 4rem;
+  }
+  .ul__link-list:last-child {
+    margin-right: 0;
+  }
+}
+@media (max-width: 900px) {
+  html {
+    font-size: 50%;
+  }
+
+  .navigation__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .logo {
+    margin-left: 0;
+  }
+  .center-logo {
+    text-align: center;
+  }
+  .ul__link-list {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    font-size: 1.1rem;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    padding: 4rem;
+  }
+  .ul__link-list:last-child {
+    margin-right: 0;
+  }
+}
+
+@media (max-width: 430px) {
+  html {
+    font-size: 40%;
+  }
+
+  .ul__link-list:last-child {
+    margin-right: 0;
+  }
+  .logo {
+    margin-left: 0;
+  }
+}
+@media (max-width: 330px) {
+  html {
+    font-size: 35%;
+  }
+  .name {
+    letter-spacing: 4px;
+    font-size: 3rem;
+  }
+
+  .ul__link-list:last-child {
+    margin-right: 0;
+  }
+  .logo {
+    margin-left: 0;
+  }
+}

@@ -2,7 +2,7 @@
 }
 .portfolio__project__hero {
   width: 100%;
-  height: 70vh;
+  height: 60vh;
 }
 .portfolio__project__container {
   display: grid;
@@ -103,7 +103,6 @@
   text-align: center;
 }
 .portfolio__view-links {
-  /* background-color: #0a2540; */
   background-color: #ce7d00;
 }
 .portfolio__view-links:link,
@@ -146,17 +145,14 @@
 @media (max-width: 1200px) {
   .portfolio__project__hero {
     width: 100%;
-    height: 60vh;
+    height: 70vh;
+    padding-top: 23rem;
   }
   .portfolio__teck-title {
     font-size: 3rem;
   }
 }
 @media (max-width: 850px) {
-  .portfolio__project__hero {
-    width: 100%;
-    height: 40vh;
-  }
   .portfolio__teck-title {
     font-size: 3rem;
   }
@@ -165,7 +161,7 @@
 @media (max-width: 500px) {
   .portfolio__project__hero {
     width: 100%;
-    height: 30vh;
+    height: 50vh;
   }
   .portfolio__project__container {
     display: flex;

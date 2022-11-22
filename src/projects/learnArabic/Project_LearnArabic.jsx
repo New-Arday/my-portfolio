@@ -1,11 +1,11 @@
 import React from "react";
-import "../projects/Project_LearnArabic.css";
-import Lessons from "../images/lessons.PNG";
-import LearnArabic from "../images/Learn-Arabic.PNG";
-import ReactRouterDom from "../images/React-router-dom.PNG";
-import CssGrid from "../images/CSS-Grid.PNG";
-import CssCarousal from "../images/CSS-carousal.PNG";
-import MediaQuery from "../images/Media-query.PNG";
+import "./Project_LearnArabic.css";
+import Lessons from "../../images/lessons.PNG";
+import LearnArabic from "../../images/Learn-Arabic.PNG";
+import ReactRouterDom from "../../images/React-router-dom.PNG";
+import CssGrid from "../../images/CSS-Grid.PNG";
+import CssCarousal from "../../images/CSS-carousal.PNG";
+import MediaQuery from "../../images/Media-query.PNG";
 
 function Project_LearnArabic() {
   return (
@@ -63,7 +63,7 @@ function Project_LearnArabic() {
                 <a
                   href="https://main--gatewaytoarabicproject.netlify.app/"
                   target="_blank"
-                  className="arabic__view-links"
+                  className="arabic__view-links live"
                 >
                   Live Project
                 </a>
