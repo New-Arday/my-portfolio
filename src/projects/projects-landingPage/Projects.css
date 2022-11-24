@@ -1,5 +1,5 @@
 .project {
-  background-color: #19364d4f;
+  background-color: #11232cbd;
   padding: 3rem;
   padding-top: 15rem;
 }
@@ -14,15 +14,7 @@
   padding-top: 10rem;
   letter-spacing: 1rem;
   text-transform: uppercase;
-  color: #19364d;
-}
-
-.card {
-  background-color: #000;
-  display: flex;
-  flex-direction: column;
-  border-radius: 0.5rem;
-  color: #19364d;
+  color: #9cbcd6;
 }
 
 .project__img {
@@ -35,13 +27,6 @@
   font-size: 2rem;
   color: rgb(79, 70, 70);
 }
-.project__heading {
-  font-size: 2rem;
-  text-align: center;
-  font-size: 4rem;
-  padding: 2rem;
-  letter-spacing: 0.5rem;
-}
 
 .projects__stack-list {
   display: flex;
@@ -49,15 +34,6 @@
   flex-wrap: wrap;
   gap: 1.5rem;
   margin-bottom: 3rem;
-}
-.style-list {
-  list-style: none;
-  border-radius: 1rem;
-  padding: 1rem;
-  font-size: 2rem;
-  color: #27275f;
-  letter-spacing: 0.5rem;
-  border: solid gray 0.5px;
 }
 
 .stack-js {

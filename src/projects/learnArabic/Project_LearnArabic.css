@@ -1,12 +1,8 @@
 .arabic__project-bg-clr {
-  /* background-color: #021425; */
-  /* background-color: #0a2540; */
-  /* background-color: #212325; */
-  /* mask-image: linear-gradient(to top, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)); */
 }
 .arabic__project-hero {
   width: 100%;
-  height: 80vh;
+  /* height: 80vh; */
 }
 
 .arabic__project-container {
@@ -28,14 +24,7 @@
   color: #666;
   text-align: center;
 }
-/* .arabic__used-stack-box {
-  padding: 2rem;
-  border-radius: 0.7rem;
-} */
-/* .arabic__stack-list-text {
-  color: #fff;
-  background-color: #495057;
-} */
+
 .arabic__stack-list {
   list-style: none;
   border-radius: 1rem;
@@ -165,8 +154,7 @@
 @media (max-width: 1200px) {
   .arabic__project-hero {
     width: 100%;
-    height: 85vh;
-    padding-top: 15rem;
+    padding-top: 25rem;
   }
 
   .arabic__teck-title {
@@ -188,8 +176,7 @@
 @media (max-width: 500px) {
   .arabic__project-hero {
     width: 100%;
-    height: 65vh;
-    padding-top: 15rem;
+    padding-top: 25rem;
   }
   .arabic__project-container {
     display: flex;
@@ -256,7 +243,6 @@
 @media (max-width: 400px) {
   .arabic__project-hero {
     width: 100%;
-    height: 55vh;
-    padding-top: 15rem;
+    padding-top: 22rem;
   }
 }

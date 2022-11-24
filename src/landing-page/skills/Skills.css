@@ -1,0 +1,46 @@
+.dev-skills-section-box {
+  display: grid;
+  background-color: #eed114;
+}
+.dev-skills-section {
+  display: flex;
+  justify-content: space-around;
+  padding: 2rem;
+  font-size: 2rem;
+  color: #333;
+  font-weight: 500;
+  letter-spacing: 0.3rem;
+}
+.dev-skills-section__heading {
+  font-size: 5rem;
+  letter-spacing: 0.3rem;
+  text-align: center;
+  margin-top: 4rem;
+}
+.dev-skills-section li {
+  list-style: none;
+}
+
+.dev-skills__heading {
+  margin-bottom: 2rem;
+  font-size: 3rem;
+  box-shadow: inset 0 -3rem 5rem rgba(0, 0, 0, 0.1), 0 0 0 0px rgb(8, 8, 8),
+    0.3rem 0.3rem 1rem rgba(0, 0, 0, 0.3);
+}
+.skills-card {
+  padding: 4rem;
+}
+
+@media (max-width: 600px) {
+  .dev-skills-section {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    width: 100%;
+    font-size: 2rem;
+    color: #333;
+    font-weight: 500;
+    letter-spacing: 0.3rem;
+    align-items: center;
+  }
+}

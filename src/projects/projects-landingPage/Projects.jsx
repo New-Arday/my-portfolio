@@ -24,7 +24,7 @@ const Projects = () => {
         sx={{
           bgcolor: "#11232c",
           textAlign: "center",
-          marginTop: "15rem",
+          marginTop: "10rem",
           marginBottom: "15rem",
         }}
         style={{ border: " solid 1px #BCA210" }}

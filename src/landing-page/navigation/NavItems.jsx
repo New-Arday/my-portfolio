@@ -13,16 +13,21 @@ const NavItems = () => {
         {/* </div> */}
         <ul className="ul__link-list">
           <li>
-            <a className="links" href="#projects">
+            <Link to="/projects" className="links">
               Projects
-            </a>
+            </Link>
           </li>
 
           <li>
-            <a className="links" href="#about-section">
+            <Link to="/about" className="links">
               About
-            </a>
+            </Link>
           </li>
+          {/* <li>
+            <Link to="/skills" className="links">
+              Skills
+            </Link>
+          </li> */}
 
           <li>
             <Link to="/resume" className="links">
